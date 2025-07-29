@@ -23,3 +23,7 @@ def haversine_distance(lat1, lon1, lat2, lon2):
     c = 2 * asin(sqrt(a))
 
     return round(R * c, 3)
+
+
+distancia = haversine_distance(6.25184, -75.56359, 6.217, -75.567)
+print(f"Distancia: {distancia:.2f} km")
